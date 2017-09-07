@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/product')
+mongoose.connect('mongodb://dungna:dungna2401@ds115124.mlab.com:15124/star-war-d')
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
   
